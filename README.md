@@ -59,13 +59,21 @@ The dataset contains 4,007 Normal records and 682 Crash records.
 ## Technologies Used
 
 Category                        Technologies
+
 Programming              -       Python, C++
+
 Microcontroller          -       ESP32
+
 Machine Learning         -       Neural Network, Edge Impulse
+
 Communication            -       LoRa 
+
 Location Tracking        -       GPS (NEO-6M)
+
 Web Dashboard            -       Python, Flask
+
 Development Tools        -       Arduino IDE, VS Code
+
 Hardware Components      -       ESP32 Development Boards,  LoRa Transmitter and Receiver Modules,
                                  MPU6050 Accelerometer and Gyroscope,  GPS NEO-6M Module,
                                  IR Sensors,  RC Bluetooth Robot Car
@@ -81,7 +89,7 @@ Performs additional verification using IR sensors.
 Obtains GPS coordinates.
 Sends accident alerts through LoRa.
 
-2. Receiver Unit
+3. Receiver Unit
 Receives accident alerts through LoRa.
 Transfers received information to the connected computer.
 Displays accident information on the web dashboard.
