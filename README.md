@@ -56,6 +56,16 @@ gyro_x, gyro_y, gyro_z – Angular velocity values along the X, Y, and Z axes.
 
 The dataset contains 4,007 Normal records and 682 Crash records.
 
+SOFTWARE USED:
+
+Arduino IDE: https://www.arduino.cc/en/software
+
+Python: https://www.python.org/downloads/
+
+Visual Studio Code: https://code.visualstudio.com/
+
+Edge Impulse: https://edgeimpulse.com/
+
 ## Technologies Used
 
 Category                        Technologies
