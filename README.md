@@ -28,10 +28,15 @@ Web Dashboard: Displays accident status, prediction scores, GPS coordinates, and
 The dataset used in this project contains MPU6050 sensor readings collected for accident detection. It is used to train a neural network model to identify vehicle movement as either Normal or Crash.
 
 The dataset contains:
+
 Total Records: 4,689
+
 Total Columns: 7
+
 Input Features: 6
+
 Target Column: label
+
 Classes: Normal and Crash
 
 The six input features are:
