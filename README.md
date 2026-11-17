@@ -1,4 +1,6 @@
-# Ai-powered-Accident-Detection-System
+# AI-Powered LoRa-Based Accident Detection and Emergency Alert System 
+## Shreya K - 4CB23AI099
+## Varsha M - 4CB23AI122
 
 ## Project Overview
 
@@ -21,6 +23,21 @@ False Alert Reduction: Combines ML detection with IR-based verification.
 LoRa Communication: Transmits emergency alerts without depending on mobile network connectivity.
 GPS Location Tracking: Provides the location coordinates of the detected accident.
 Web Dashboard: Displays accident status, prediction scores, GPS coordinates, and alert history.
+
+## Dataset Used 
+The dataset used in this project contains MPU6050 sensor readings collected for accident detection. It is used to train a neural network model to identify vehicle movement as either Normal or Crash.
+
+The dataset contains:
+Total Records: 4,689
+Total Columns: 7
+Input Features: 6
+Target Column: label
+Classes: Normal and Crash
+
+The six input features are:
+accel_x, accel_y, accel_z – Acceleration values along the X, Y, and Z axes.
+gyro_x, gyro_y, gyro_z – Angular velocity values along the X, Y, and Z axes.
+The dataset contains 4,007 Normal records and 682 Crash records.
 
 ## Technologies Used
 
@@ -60,3 +77,4 @@ IR-based verification is used to help reduce false alerts.
 When an accident condition is confirmed, GPS coordinates are obtained.
 The transmitter sends the emergency alert through LoRa.
 The receiver receives the alert and updates the web dashboard.
+
