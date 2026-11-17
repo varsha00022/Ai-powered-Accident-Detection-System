@@ -10,18 +10,27 @@ The system uses a Machine Learning model to identify accident conditions based o
 ## Objectives
 
 Develop an AI-based system to detect vehicle accidents.
+
 Identify normal and crash conditions using a Neural Network model.
+
 Reduce false alerts through additional verification.
+
 Transmit emergency alerts using LoRa communication.
+
 Provide GPS location information for accident identification.
+
 Display accident information through a web dashboard.
 
 ## Key Features
 
 AI-Based Accident Detection: Uses a Neural Network model to distinguish between normal and crash conditions.
+
 False Alert Reduction: Combines ML detection with IR-based verification.
+
 LoRa Communication: Transmits emergency alerts without depending on mobile network connectivity.
+
 GPS Location Tracking: Provides the location coordinates of the detected accident.
+
 Web Dashboard: Displays accident status, prediction scores, GPS coordinates, and alert history.
 
 ## Dataset Used 
@@ -40,8 +49,11 @@ Target Column: label
 Classes: Normal and Crash
 
 The six input features are:
+
 accel_x, accel_y, accel_z – Acceleration values along the X, Y, and Z axes.
+
 gyro_x, gyro_y, gyro_z – Angular velocity values along the X, Y, and Z axes.
+
 The dataset contains 4,007 Normal records and 682 Crash records.
 
 ## Technologies Used
